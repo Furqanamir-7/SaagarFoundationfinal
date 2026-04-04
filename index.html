@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saagar Foundation — Community impact with transparency</title>
+    <meta name="description" content="Compassion in action — community, dignity, and lasting impact.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-heart"></i>
+                <span>Saagar Foundation</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#mission" class="nav-link">Mission & Vision</a>
+                <a href="#what-we-do" class="nav-link">What We Do</a>
+                <a href="#sportsfest" class="nav-link">Saagar Sportsfest</a>
+                <a href="#get-involved" class="nav-link">Get Involved</a>
+                <a href="#donate" class="nav-link">Donate</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="donate-btn">Donate Now</button>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Compassion in action</span>
+                    <br>Community, dignity, and lasting impact
+                </h1>
+                <p class="hero-subtitle">Building stronger communities through transparent operations, sustainable programs, and meaningful partnerships.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('donate')">Donate now</button>
+                    <button class="btn-secondary" onclick="scrollToSection('get-involved')">Become a volunteer</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="element element-1"></div>
+                    <div class="element element-2"></div>
+                    <div class="element element-3"></div>
+                    <div class="element element-4"></div>
+                    <div class="element element-5"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Values Section -->
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2 class="section-title">Our Impact Areas</h2>
+                <p class="section-subtitle">Building proof one neighborhood at a time</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Neighbors feeding neighbors</h3>
+                    <p>Small teams, local partners, and steady drives—building proof one neighborhood at a time.</p>
+                    <button class="card-btn">Learn More</button>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Sports that fund futures</h3>
+                    <p>Saagar Sportsfest is the marquee moment where communities compete—and causes win.</p>
+                    <button class="card-btn">Explore Sportsfest</button>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Transparent, humane operations</h3>
+                    <p>Compliance blocks, allocation notes, and partner logos build the trust bar you want.</p>
+                    <button class="card-btn">View Transparency</button>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Volunteers who stay</h3>
+                    <p>Beyond one-off events—mentorship, drives, and steady check-ins with families.</p>
+                    <button class="card-btn">Join Our Team</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission & Vision -->
+        <section id="mission" class="mission">
+            <div class="mission-content">
+                <div class="mission-text">
+                    <h2 class="section-title">Mission & Vision</h2>
+                    <p class="mission-description">
+                        We believe in creating sustainable change through community-driven initiatives. 
+                        Our mission is to empower neighborhoods with the resources, education, and support 
+                        they need to thrive independently while fostering a culture of compassion and service.
+                    </p>
+                    <div class="mission-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5000">0</span>
+                            <span class="stat-label">Families Helped</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="250">0</span>
+                            <span class="stat-label">Volunteers</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="50">0</span>
+                            <span class="stat-label">Community Partners</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mission-visual">
+                    <div class="impact-circles">
+                        <div class="circle circle-1"></div>
+                        <div class="circle circle-2"></div>
+                        <div class="circle circle-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What We Do -->
+        <section id="what-we-do" class="programs">
+            <div class="section-header">
+                <h2 class="section-title">What We Do</h2>
+                <p class="section-subtitle">Comprehensive community support programs</p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-image">
+                        <div class="program-overlay"></div>
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Food Drives</h3>
+                        <p>Regular food distribution programs ensuring no family goes hungry in our communities.</p>
+                        <div class="program-stats">
+                            <span><i class="fas fa-users"></i> 10,000+ Meals</span>
+                            <span><i class="fas fa-calendar"></i> Monthly</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image">
+                        <div class="program-overlay"></div>
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Education Support</h3>
+                        <p>Tutoring, scholarships, and educational resources for underprivileged students.</p>
+                        <div class="program-stats">
+                            <span><i class="fas fa-users"></i> 500+ Students</span>
+                            <span><i class="fas fa-school"></i> 15 Schools</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image">
+                        <div class="program-overlay"></div>
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Health Initiatives</h3>
+                        <p>Medical camps, health awareness programs, and partnerships with healthcare providers.</p>
+                        <div class="program-stats">
+                            <span><i class="fas fa-users"></i> 2,000+ Checkups</span>
+                            <span><i class="fas fa-hospital"></i> 5+ Partners</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image">
+                        <div class="program-overlay"></div>
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Skill Development</h3>
+                        <p>Vocational training and job placement assistance for sustainable livelihood.</p>
+                        <div class="program-stats">
+                            <span><i class="fas fa-users"></i> 300+ Trained</span>
+                            <span><i class="fas fa-chart-line"></i> 75% Placement</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Saagar Sportsfest -->
+        <section id="sportsfest" class="sportsfest">
+            <div class="section-header">
+                <h2 class="section-title">Saagar Sportsfest</h2>
+                <p class="section-subtitle">Where communities compete—and causes win</p>
+            </div>
+            <div class="sportsfest-content">
+                <div class="sportsfest-visual">
+                    <div class="trophy-animation">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                </div>
+                <div class="sportsfest-info">
+                    <h3>Annual Sports Tournament</h3>
+                    <p>Join our flagship sporting event that brings communities together while raising funds for our various programs. Experience the excitement of competition while making a real difference.</p>
+                    <div class="sportsfest-features">
+                        <div class="feature-item">
+                            <i class="fas fa-medal"></i>
+                            <span>Multiple Sports Categories</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-users"></i>
+                            <span>500+ Participants</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>Funds for Community Projects</span>
+                        </div>
+                    </div>
+                    <button class="btn-primary">Register for Sportsfest</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get Involved -->
+        <section id="get-involved" class="get-involved">
+            <div class="section-header">
+                <h2 class="section-title">Get Involved</h2>
+                <p class="section-subtitle">Multiple ways to make a difference</p>
+            </div>
+            <div class="involvement-options">
+                <div class="involvement-card">
+                    <div class="involvement-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Become a Volunteer</h3>
+                    <p>Join our dedicated team of volunteers making real community impact.</p>
+                    <button class="involvement-btn">Apply Now</button>
+                </div>
+                <div class="involvement-card">
+                    <div class="involvement-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Apply for Internship</h3>
+                    <p>Gain valuable experience while contributing to meaningful causes.</p>
+                    <button class="involvement-btn">Learn More</button>
+                </div>
+                <div class="involvement-card">
+                    <div class="involvement-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Partner with Us</h3>
+                    <p>Collaborate with us to expand our reach and impact.</p>
+                    <button class="involvement-btn">Contact Us</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Donate Section -->
+        <section id="donate" class="donate">
+            <div class="donate-content">
+                <div class="donate-text">
+                    <h2 class="section-title">Make a Difference Today</h2>
+                    <p>Your generosity helps us continue our mission of community service and sustainable development.</p>
+                    <div class="donate-options">
+                        <button class="donate-amount" data-amount="25">$25</button>
+                        <button class="donate-amount" data-amount="50">$50</button>
+                        <button class="donate-amount" data-amount="100">$100</button>
+                        <button class="donate-amount" data-amount="250">$250</button>
+                        <button class="donate-amount custom">Custom</button>
+                    </div>
+                    <button class="btn-primary donate-now">Donate Now</button>
+                </div>
+                <div class="donate-visual">
+                    <div class="heart-animation">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">We'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@saagarfoundation.org</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Hope Street, New York, NY 10001</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-heart"></i>
+                    <span>Saagar Foundation</span>
+                    <p>Compassion in action — community, dignity, and lasting impact.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <a href="#about">About Us</a>
+                        <a href="#mission">Mission & Vision</a>
+                        <a href="#what-we-do">What We Do</a>
+                        <a href="#sportsfest">Saagar Sportsfest</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Get Involved</h4>
+                        <a href="#get-involved">Volunteer</a>
+                        <a href="#get-involved">Internship</a>
+                        <a href="#contact">Partner with Us</a>
+                        <a href="#donate">Donate</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <a href="#contact">Contact</a>
+                        <a href="#">Newsletter</a>
+                        <a href="#">Events</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Saagar Foundation. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

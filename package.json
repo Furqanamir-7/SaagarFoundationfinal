@@ -1,0 +1,17 @@
+{
+  "name": "saagar-foundation",
+  "version": "1.0.0",
+  "description": "Saagar Foundation - A vibrant and modern web presence",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s . -l 3000",
+    "build": "echo 'No build step needed for static site'",
+    "dev": "serve -s . -l 3000"
+  },
+  "keywords": ["foundation", "charity", "vibrant", "modern"],
+  "author": "Furqan Amir",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
