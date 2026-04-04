@@ -206,10 +206,10 @@ document.addEventListener('DOMContentLoaded', function() {
             mobileToggle.className = 'mobile-menu-toggle';
             mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
             mobileToggle.style.cssText = `
-                background: linear-gradient(135deg, #FF6B6B, #4ECDC4);
+                background: transparent;
                 border: none;
                 font-size: 1.5rem;
-                color: white;
+                color: #FF1744;
                 cursor: pointer;
                 display: block;
                 padding: 0.5rem;
@@ -227,11 +227,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     top: 100%;
                     left: 0;
                     right: 0;
-                    background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.95));
+                    background: transparent;
                     flex-direction: column;
                     padding: 2rem;
-                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-                    backdrop-filter: blur(15px);
+                    backdrop-filter: none;
+                    box-shadow: none;
                 `;
                 
                 this.innerHTML = isOpen ? '<i class="fas fa-bars"></i>' : '<i class="fas fa-times"></i>';
