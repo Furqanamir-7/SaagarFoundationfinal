@@ -18,14 +18,14 @@ body {
 
 /* Enhanced Vibrant Color Palette */
 :root {
-    --primary-gradient: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 50%, #45B7D1 100%);
-    --secondary-gradient: linear-gradient(135deg, #FF8E53 0%, #FE6B8B 50%, #FF8E53 100%);
-    --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --success-gradient: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
-    --warning-gradient: linear-gradient(135deg, #f2994a 0%, #f2c94c 100%);
-    --neon-gradient: linear-gradient(135deg, #00ff88 0%, #00ffff 50%, #ff00ff 100%);
-    --sunset-gradient: linear-gradient(135deg, #ff6b6b 0%, #feca57 50%, #ff9ff3 100%);
-    --ocean-gradient: linear-gradient(135deg, #48dbfb 0%, #0abde3 50%, #006ba6 100%);
+    --primary-gradient: linear-gradient(135deg, #FF1744 0%, #00E676 50%, #00B0FF 100%);
+    --secondary-gradient: linear-gradient(135deg, #FF6D00 0%, #E91E63 50%, #FF6D00 100%);
+    --accent-gradient: linear-gradient(135deg, #7C4DFF 0%, #FF4081 100%);
+    --success-gradient: linear-gradient(135deg, #00C853 0%, #64DD17 100%);
+    --warning-gradient: linear-gradient(135deg, #FFD600 0%, #FF6F00 100%);
+    --neon-gradient: linear-gradient(135deg, #00FF41 0%, #00E5FF 50%, #FF00FF 100%);
+    --sunset-gradient: linear-gradient(135deg, #FF1744 0%, #FFD600 50%, #E91E63 100%);
+    --ocean-gradient: linear-gradient(135deg, #00E5FF 0%, #0091EA 50%, #0057B8 100%);
     --dark-bg: #0f0f23;
     --light-bg: #f8f9fa;
     --text-primary: #2c3e50;
@@ -33,8 +33,8 @@ body {
     --white: #ffffff;
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.15);
-    --neon-shadow: 0 0 20px rgba(255, 107, 107, 0.5);
-    --glow-shadow: 0 0 30px rgba(78, 205, 196, 0.4);
+    --neon-shadow: 0 0 30px rgba(255, 23, 68, 0.7);
+    --glow-shadow: 0 0 40px rgba(0, 230, 118, 0.6);
 }
 
 /* Navigation */
@@ -122,17 +122,17 @@ body {
     display: flex;
     align-items: center;
     padding: 0 5%;
-    background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 25%, #45B7D1 50%, #96CEB4 75%, #FFEAA7 100%);
+    background: linear-gradient(135deg, #FF1744 0%, #00E676 25%, #00B0FF 50%, #FFD600 75%, #E91E63 100%);
     position: relative;
     overflow: hidden;
     animation: hero-gradient-shift 10s ease infinite;
 }
 
 @keyframes hero-gradient-shift {
-    0%, 100% { background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 25%, #45B7D1 50%, #96CEB4 75%, #FFEAA7 100%); }
-    25% { background: linear-gradient(135deg, #4ECDC4 0%, #45B7D1 25%, #96CEB4 50%, #FFEAA7 75%, #FF6B6B 100%); }
-    50% { background: linear-gradient(135deg, #45B7D1 0%, #96CEB4 25%, #FFEAA7 50%, #FF6B6B 75%, #4ECDC4 100%); }
-    75% { background: linear-gradient(135deg, #96CEB4 0%, #FFEAA7 25%, #FF6B6B 50%, #4ECDC4 75%, #45B7D1 100%); }
+    0%, 100% { background: linear-gradient(135deg, #FF1744 0%, #00E676 25%, #00B0FF 50%, #FFD600 75%, #E91E63 100%); }
+    25% { background: linear-gradient(135deg, #00E676 0%, #00B0FF 25%, #FFD600 50%, #E91E63 75%, #FF1744 100%); }
+    50% { background: linear-gradient(135deg, #00B0FF 0%, #FFD600 25%, #E91E63 50%, #FF1744 75%, #00E676 100%); }
+    75% { background: linear-gradient(135deg, #FFD600 0%, #E91E63 25%, #FF1744 50%, #00E676 75%, #00B0FF 100%); }
 }
 
 .hero::before {
