@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "name": "saagar-foundation"
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "installCommand": null,
+  "framework": null
 }

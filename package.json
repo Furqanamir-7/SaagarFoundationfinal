@@ -6,7 +6,8 @@
   "scripts": {
     "start": "serve -s . -l 3000",
     "build": "echo 'No build step needed for static site'",
-    "dev": "serve -s . -l 3000"
+    "dev": "serve -s . -l 3000",
+    "deploy": "npx vercel --prod"
   },
   "keywords": ["foundation", "charity", "vibrant", "modern"],
   "author": "Furqan Amir",
